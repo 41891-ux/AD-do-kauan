@@ -2,7 +2,7 @@
 
 API REST feita em Python + Flask que permite enviar (upload) e baixar (download) arquivos. Os arquivos são salvos na pasta `uploads/` e cada envio é registrado em `uploads.log`.
 
-API no ar: https://SEU-APP.onrender.com
+API no ar: https://ad-do-kauan.onrender.com
 
 ## Tecnologias
 
@@ -68,7 +68,7 @@ A API fica em `http://127.0.0.1:5000`.
 **Upload** (Postman: método POST, Body → form-data, chave `file` do tipo *File*)
 
 ```bash
-curl -X POST -F "file=@teste.txt" https://SEU-APP.onrender.com/uploads/upload
+curl -X POST -F "file=@teste.txt" https://ad-do-kauan.onrender.com
 ```
 
 Resposta `200`:
@@ -87,7 +87,7 @@ Erros possíveis (`400`):
 **Download**
 
 ```bash
-curl -O https://SEU-APP.onrender.com/downloads/teste.txt
+curl -O https://ad-do-kauan.onrender.com
 ```
 
 Se o arquivo não existir (`404`):
