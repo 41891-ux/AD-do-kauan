@@ -1,1 +1,0 @@
-# AD-do-kauan
